@@ -1,0 +1,622 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+form#subscribe, form#cform {
+    margin: 0;
+    padding: 0;
+}
+
+input#semail {
+    width: 293px;
+    height: 18px;
+    padding: 10px 36px 10px 15px;
+    margin-bottom: 0;
+    border: 1px solid #e5e5e5;
+    font-size: 14px;
+    float: left;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+
+}
+
+input#submit, input#ssubmit {
+    position: relative;
+    border-radius: 2px 2px 2px 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    box-shadow: #e3e3e3 0 1px 1px;
+    -moz-box-shadow: 0px 1px 1px rgba(000, 000, 000, 0.1), inset 0px 1px 1px rgba(255, 255, 255, 0.7);
+    -webkit-box-shadow: 0px 1px 1px rgba(000, 000, 000, 0.1), inset 0px 1px 1px rgba(255, 255, 255, 0.7);
+    font-size: 14px;
+    float: right;
+    padding: 0 10px;
+    height: 40px;
+    cursor: pointer;
+    line-height: 36px;
+    behavior: url(PIE.htc);
+}
+
+.orange {
+    text-shadow: 1px 1px 0px #ffe8b2;
+    color: #7c5d1b;
+    border: 1px solid #d6a437;
+    background: #febd4b; /*fallback for non-CSS3 browsers*/
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#fed970) to(#febd4b)); /*old webkit*/
+    background: -webkit-linear-gradient(#fed970, #febd4b); /*new webkit*/
+    background: -moz-linear-gradient(#fed970, #febd4b); /*gecko*/
+    background: -ms-linear-gradient(#fed970, #febd4b); /*IE10*/
+    background: -o-linear-gradient(#fed970, #febd4b); /*opera 11.10+*/
+    background: linear-gradient(#fed970, #febd4b); /*future CSS3 browsers*/
+    -pie-background: linear-gradient(#fed970, #febd4b); /*PIE*/
+}
+
+.orange:hover {
+    color: #7c5d1b;
+    border: 1px solid #d6a437;
+    background: #febd4b; /*fallback for non-CSS3 browsers*/
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#febd4b) to(#fed970)); /*old webkit*/
+    background: -webkit-linear-gradient(#febd4b, #fed970); /*new webkit*/
+    background: -moz-linear-gradient(#febd4b, #fed970); /*gecko*/
+    background: -ms-linear-gradient(#febd4b, #fed970); /*IE10*/
+    background: -o-linear-gradient(#febd4b, #fed970); /*opera 11.10+*/
+    background: linear-gradient(#febd4b, #fed970); /*future CSS3 browsers*/
+    -pie-background: linear-gradient(#febd4b, #fed970); /*PIE*/
+}
+
+.form-wrapper {
+    clear: both;
+    border: 1px solid #e5e5e5;
+    background: #fdfdfd url(../images/form-pattern.png) repeat scroll 0 0;
+    -moz-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+    padding: 8px;
+    margin-left: 323px;
+    margin-right: 30px;
+    margin-top: -81px;
+    overflow: hidden;
+    position: relative;
+}
+
+.eta-announcement {
+    /*clear: both;*/
+    border: 1px solid #e5e5e5;
+    background: #fdfdfd url(../images/form-pattern.png) repeat scroll 0 0;
+    -moz-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+    padding: 8px;
+    margin-left: 105px;
+    margin-right: 32px;
+    margin-top: -122px;
+    overflow: hidden;
+    position: relative;
+}
+
+#wrap {
+    background-image: url(../images/bgpattern2.jpg);
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+}
+
+#maincontainer {
+    overflow: auto;
+    padding-bottom: 290px;
+}
+
+#header {
+    -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.63);
+    -moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.63);
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.63);
+    padding-bottom: 0;
+}
+
+.headerbig {
+    background-image: url(../images/45degreee_fabric.png);
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    height: 260px;
+    padding-top: 30px;
+}
+
+.logo {
+    margin-top: 20px;
+}
+
+#teaser {
+    margin-top: -143px;
+    margin-bottom: 40px;
+
+}
+
+/* CLEAR FIX */
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.clearfix {
+    display: inline-block;
+}
+
+.outerbox {
+    width: 100%;
+    border: 1px solid #eeeeee;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    -webkit-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.45);
+    -moz-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.45);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.45);
+}
+
+.outerbox .innerbox {
+    margin: 2px;
+    background-color: #ffffff;
+    /*border: 1px solid @borderColor;*/
+
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    overflow: hidden;
+}
+
+.outerbox .bottom_line {
+    padding: 5px;
+    padding-top: 2px;
+    text-align: center;
+}
+
+a {
+    color: #00B7FF;
+    text-decoration: none;
+    border-width: 0px;
+}
+
+img {
+    border-width: 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    text-rendering: optimizelegibility;
+}
+
+h1 {
+    font-size: 46px;
+    line-height: 120%;
+    font-weight: 500;
+    color: #333333;
+    line-height: 120%;
+}
+
+h1.claim {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 200%;
+    color: #333333;
+}
+
+h3 {
+    color: #525252;
+    font-size: 20px;
+    line-height: 180%;
+    color: #525252;
+    text-align: left;
+    font-weight: 400;
+}
+
+p {
+    padding-top: 10px;
+    font-size: 16px;
+    line-height: 29px;
+    color: #525252;
+}
+
+ul li {
+    font-size: 14px;
+    line-height: 160%;
+    color: #525252;
+}
+
+/*
+  960 Grid System ~ Core CSS.
+  Learn more ~ http://960.gs/
+
+  Licensed under GPL and MIT.
+*/
+/*
+  Forces backgrounds to span full width,
+  even if there is horizontal scrolling.
+  Increase this if your layout is wider.
+
+  Note: IE6 works fine without this fix.
+*/
+body {
+    min-width: 960px;
+}
+
+.top-page {
+    background: url(../images/top-paper.png) no-repeat left top;
+    width: 806px;
+    height: 24px;
+    position: relative;
+}
+.bottom-page {
+    background: url(../images/bottom-paper.png) no-repeat left top;
+    width: 806px;
+    height: 55px;
+}
+.row {
+    width: 100%;
+    height: 29px;
+    clear: both;
+}
+
+h2 {
+    font-family: 'CopseRegular', CopseRegular, Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    height: 29px;
+    line-height: 32px;
+    font-weight: normal;
+    text-shadow: 1px 1px 0px #e1e1e1;
+    position: relative;
+    /*padding-left: 80px;*/
+}
+
+.content-page {
+    background: url(../images/row.png) repeat-y left top;
+    width: 725px;
+    height: 377px;
+    padding-left: 80px;
+    position: relative;
+}
+
+/* `Container
+----------------------------------------------------------------------------------------------------*/
+.page, .container_12 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 820px;
+}
+
+.subject {
+    /*padding-left: 79px;*/
+}
+
+.page {
+    background: transparent url(../images/row.png) repeat-y;
+}
+
+/* `Grid >> Global
+----------------------------------------------------------------------------------------------------*/
+.grid_12 {
+    /*display: inline;*/
+    /*float: left;*/
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 805px;
+    /* `Grid >> Children (Alpha ~ First, Omega ~ Last)
+    ----------------------------------------------------------------------------------------------------*/
+}
+
+.alpha {
+    margin-left: 0;
+}
+
+.omega {
+    margin-right: 0;
+}
+
+.carousel {
+    position: relative;
+    /*margin-bottom: 8px;*/
+    /*line-height: 1;*/
+    /*height: 310px;*/
+}
+
+.carousel-inner {
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+}
+
+.carousel .item {
+    display: none;
+    position: relative;
+    -webkit-transition: 0.6s ease-in-out left;
+    -moz-transition: 0.6s ease-in-out left;
+    -ms-transition: 0.6s ease-in-out left;
+    -o-transition: 0.6s ease-in-out left;
+    transition: 0.6s ease-in-out left;
+}
+
+.carousel .item .item-inner {
+    padding: 10px 25px 10px 25px;
+}
+
+.carousel .item .text-block {
+    width: 54%;
+}
+
+.text-block {
+    display: inline-block;
+    /*padding-left: 80px;*/
+    vertical-align: top;
+}
+
+.carousel .item .illu-block {
+    display: inline-block;
+    text-align: center;
+    width: 39%;
+}
+
+.carousel .item .item-inner .illu-block img {
+    margin-top: 20px;
+}
+
+.carousel .item > img {
+    display: block;
+    line-height: 1;
+}
+
+.carousel .active,
+.carousel .next,
+.carousel .prev {
+    display: block;
+}
+
+.carousel .active {
+    left: 0;
+}
+
+.carousel .next,
+.carousel .prev {
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.carousel .next {
+    left: 100%;
+}
+
+.carousel .prev {
+    left: -100%;
+}
+
+.carousel .next.left,
+.carousel .prev.right {
+    left: 0;
+}
+
+.carousel .active.left {
+    left: -100%;
+}
+
+.carousel .active.right {
+    left: 100%;
+}
+
+.carousel-control {
+    position: absolute;
+    top: 48%;
+    left: -5px;
+    width: 30px;
+    height: 30px;
+    margin-top: -20px;
+    font-size: 50px;
+    font-weight: 100;
+    line-height: 20px;
+    color: #666666;
+    text-align: center;
+    background: #EEEEEE;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    opacity: 0.8;
+    filter: alpha(opacity = 80);
+    border: solid 1px #CCCCCC;
+}
+
+.carousel-control.right {
+    left: auto;
+    right: -5px;
+}
+
+.carousel-control:hover {
+    color: #333333;
+    text-decoration: none;
+    opacity: 1;
+    filter: alpha(opacity = 100);
+}
+
+ul.carousel-menu {
+    display: inline-block;
+    margin: 0 auto;
+    list-style-type: none;
+}
+
+ul.carousel-menu li {
+    float: left;
+    font-size: 18px;
+    line-height: 120%;
+    color: #999999;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+ul.carousel-menu li a {
+    float: left;
+    padding: 0;
+    padding-left: 60px;
+    padding-right: 55px;
+    text-decoration: none;
+    color: #999;
+    border-radius: 4px;
+}
+
+ul.carousel-menu li a:hover,
+ul.carousel-menu li a:focus {
+    color: #333;
+}
+
+ul.carousel-menu li a:active {
+    color: #333;
+}
+
+ul.carousel-menu li a.active {
+    font-weight: bold;
+}
+
+ul.carousel-menu li.highlight a {
+    color: #42b4e5;
+}
+
+.img-googlechrome {
+    background-image: url('sprite.png');
+    background-position: left -829px;
+
+    width: 72px;
+    height: 72px;
+}
+
+.img-ie {
+    background-image: url('../images/sprite.png');
+    background-position: left -901px;
+
+    width: 72px;
+    height: 72px;
+}
+
+.img-opera {
+    background-image: url('../images/sprite.png');
+    background-position: left -973px;
+
+    width: 72px;
+    height: 72px;
+}
+
+.img-safari {
+    background-image: url('../images/sprite.png');
+    background-position: left -1045px;
+
+    width: 72px;
+    height: 72px;
+}
+
+.img-firefox {
+    background-image: url('../images/sprite.png');
+    background-position: left -1117px;
+
+    width: 72px;
+    height: 72px;
+}
+
+/*  */
+.img-activecollab-logo-start {
+    background-image: url('../images/sprite.png');
+    background-position: left -1189px;
+
+    width: 140px;
+    height: 50px;
+}
+
+.img-basecamp-logo-start {
+    background-image: url('../images/sprite.png');
+    background-position: left -1239px;
+
+    width: 140px;
+    height: 50px;
+}
+
+.img-email-logo-start {
+    background-image: url('../images/sprite.png');
+    background-position: left -1289px;
+
+    width: 140px;
+    height: 50px;
+}
+
+.img-evernote-logo-start {
+    background-image: url('../images/sprite.png');
+    background-position: left -1339px;
+
+    width: 140px;
+    height: 50px;
+}
+
+.img-httppush-logo-start {
+    background-image: url('../images/sprite.png');
+    background-position: left -1389px;
+
+    width: 140px;
+    height: 50px;
+}
+
+.img-illuvisual {
+    background-image: url('../images/reporting-bug.gif');
+
+    width: 300px;
+    height: 207px;
+}
+
+.img-application {
+    background-image: url('../images/sprite.png');
+    background-position: left -2076px;
+
+    width: 330px;
+    height: 180px;
+    margin: 20px auto;
+}
+
+.img-designer {
+    background-image: url('../images/sprite.png');
+    background-position: left -2256px;
+
+    width: 181px;
+    height: 250px;
+    margin: 20px auto;
+}
+
+.img-custsupport {
+    background-image: url(../images/customer-support.gif);
+    /*background-position: left -2506px;*/
+
+    width: 300px;
+    height: 202px;
+}
+
+.imagelink {
+    display: block;
+    text-indent: -9999px;
+}
