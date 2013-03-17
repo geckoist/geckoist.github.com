@@ -2,34 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="987ac909-1c76-42e8-9722-9adea9f8665a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/45degreee_fabric.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/bgpattern.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/bgpattern2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/bottom-paper.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/customer-support.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/form-pattern.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/illu_visualisation.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/log-text.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/reporting-bug.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/row.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/sprite.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/tisboard.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/top-paper.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/veneerworld.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascripts/conversion.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascripts/dc.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/geckoist.github.com.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/geckoist.github.com.ipr" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/geckoist.github.com.iws" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascripts/jquery-ui.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascripts/jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stylesheets/style-sprite.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascripts/teaser-page.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javascripts/teaser-page.js" afterPath="$PROJECT_DIR$/javascripts/teaser-page.js" />
     </list>
     <ignored path="geckoist.github.com.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="987ac909-1c76-42e8-9722-9adea9f8665a" time="1363508154432" ignored="false" />
+    <file path="/Dummy.txt" changelist="987ac909-1c76-42e8-9722-9adea9f8665a" time="1363509961242" ignored="false" />
     <file path="/index.html" changelist="987ac909-1c76-42e8-9722-9adea9f8665a" time="1363507958950" ignored="false" />
     <file path="/style-sprite.css" changelist="987ac909-1c76-42e8-9722-9adea9f8665a" time="1363508021115" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -322,7 +299,11 @@
       <created>1363508156665</created>
       <updated>1363508156665</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Initial rev">
+      <created>1363510015621</created>
+      <updated>1363510015621</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
