@@ -92,6 +92,7 @@ input#submit, input#ssubmit {
 }
 
 .eta-announcement {
+    font-size: 19px;
     /*clear: both;*/
     border: 1px solid #e5e5e5;
     background: #fdfdfd url(../images/form-pattern.png) repeat scroll 0 0;
