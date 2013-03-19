@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="987ac909-1c76-42e8-9722-9adea9f8665a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/linux.sh" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/geckoist.github.com.iws" afterPath="$PROJECT_DIR$/geckoist.github.com.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="geckoist.github.com.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="987ac909-1c76-42e8-9722-9adea9f8665a" time="1363621947511" ignored="false" />
+    <file path="/Dummy.txt" changelist="987ac909-1c76-42e8-9722-9adea9f8665a" time="1363702099907" ignored="false" />
     <file path="/index.html" changelist="987ac909-1c76-42e8-9722-9adea9f8665a" time="1363507958950" ignored="false" />
     <file path="/style-sprite.css" changelist="987ac909-1c76-42e8-9722-9adea9f8665a" time="1363621918369" ignored="false" />
     <file path="/linux.sh" changelist="987ac909-1c76-42e8-9722-9adea9f8665a" time="1363622420212" ignored="false" />
@@ -315,7 +313,11 @@
       <created>1363621951899</created>
       <updated>1363621951899</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added google site verification data">
+      <created>1363702104564</created>
+      <updated>1363702104564</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -386,7 +388,7 @@
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="change font size of eta" />
+    <option name="LAST_COMMIT_MESSAGE" value="added google site verification data" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -402,6 +404,7 @@
     <MESSAGE value="Initial rev" />
     <MESSAGE value="added google analytics" />
     <MESSAGE value="change font size of eta" />
+    <MESSAGE value="added google site verification data" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -417,13 +420,6 @@
     <entry file="file://$PROJECT_DIR$/stylesheets/style-sprite.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="596" column="17" selection-start="11727" selection-end="11727" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/linux.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="321" selection-end="1187" vertical-scroll-proportion="0.24242425">
           <folding />
         </state>
       </provider>
